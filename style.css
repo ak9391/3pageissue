@@ -1,0 +1,45 @@
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float:left;
+  width:33.333%;
+  padding:10px;
+  box-sizing: border-box;
+ height: 100vh; 
+}
+
+column1.relative{
+   position: relative;
+  width: 200px;
+  height:100px;
+}
+
+column1.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left:0;
+  width: 200px;
+  height: 100px;
+}
+
+.column2 {
+  float:left;
+  width:33.333%;
+  padding:10px;
+  box-sizing: border-box;
+ height: 100vh; 
+}
+
+.column3 {
+  float:left;
+  width:33.333%;
+  padding:10px;
+  box-sizing: border-box;
+ height: 100vh; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:table;
+  clear:both;
