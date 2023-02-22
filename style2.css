@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display&family=Reenie+Beanie&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.dropbtn {
+  background-color:black;
+  color: white;
+  padding-top: 10px;
+  padding-right:200px;
+  padding-left:30px;
+  padding-bottom: 0px;
+  font-family:"Bebas Neue";
+  font-size: 70px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+   font-family:"Bebas Neue";
+   font-size: 20px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
+.t1{
+  background-color:black;
+  margin: 0px;
+  color: white;
+  padding-top: 80px;
+  padding-right:0px;
+  padding-left:1200px;
+  padding-bottom: 0px;
+  font-family:"Bebas Neue";
+  font-size: 70px;
+}
+
+.n2{
+  display: block;
+  padding-top: 0px;
+  padding-right:0px;
+  padding-left:-20px;
+  padding-bottom: 0px;
+}
+
+.n3{
+  display: block;
+  padding-top: 680px;
+  padding-right:0px;
+  padding-left:-20px;
+  padding-bottom: 0px;
+}
+
+
+ .column01 {
+  float: left;
+  width: 50%;
+  padding-top:800px;
+  padding-right:0px;
+  padding-left:650px;
+  padding-bottom: 650px;
+   height: 100vh; 
+}
+
+ .column02 {
+  float: left;
+  width: 50%;
+  padding-top:100px;
+  padding-right:0px;
+  padding-left:80px;
+   box-sizing: border-box;
+ height: 100vh; 
+}
+
+ .container {
+  position: relative;
+}
+
+.text-block {
+  width: 50%;
+  height: 100vh; 
+  font-family:"Bebas Neue";
+  font-size: 30px;
+  position: absolute;
+  top:120px;
+  bottom: 0px;
+  right: 0px;
+  background-color: transparent;
+  color: white;
+  padding-left: 50px;
+  padding-right: -30px;
+}
